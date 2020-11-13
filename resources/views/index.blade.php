@@ -18,16 +18,16 @@
         <div style="position: absolute;top: 5%;left:0;z-index: 10;flex-direction: column;" class="d-grid justify-content-center w-100">
             <img src="{{$settings->logo}}" class="w-100" style="max-width: 150px;justify-self:center;"/>
             <p class="text-align-center my-4 blue-text">{{$settings->username}}</p>
-            <div style="margin-bottom: 100px;">
+            <div style="margin-bottom: 50px;" class="d-grid justify-content-center">
                 @foreach($links as $link)
                 <a href="{{$link->link}}" class="link-container">
                     <p>{{$link->title}}</p>
                 </a>
                 @endforeach
             </div>
-        </div>
-        <div class="footer-container">
-            <img src="{{$settings->footer_image}}"/>
+            <div class="footer-container">
+                <img src="{{$settings->footer_image}}"/>
+            </div>
         </div>
             <div style="position: fixed;width:100%"> 
                 <div class="slider-container" style="z-index: 9; position: relative; width:100%">
