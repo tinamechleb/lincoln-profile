@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Ford Antenna";
+	src: url("./fonts/FordAntennaWGL-Bold.otf");
+}
+
+body {
+    font-family: "Ford Antenna";
+}
+.d-grid {
+    display: grid;
+}
+.text-align-center {
+    text-align: center;
+}
+.blue-text {
+    color: #000;
+    font-size: 19px;
+}
+.link-container {
+    background-color: rgba(211, 131, 70,0.93);
+    border-radius: 13px;
+    width: 80vw;
+    padding: 17px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.link-container > p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0!important;
+}
+.footer-container {
+    background-color: rgba(255, 255, 255, 0.80);
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container > img {
+    max-width: 60vw;
+}
+.cappa__holder {
+    width: 100vw;
+}
+.slider-container {
+    height: auto;
+}
