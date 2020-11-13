@@ -1,10 +1,14 @@
 @font-face {
-	font-family: "Ford Antenna";
-	src: url("./fonts/FordAntennaWGL-Bold.otf");
+	font-family: "Lincoln Proxima Nova Bold";
+	src: url("./fonts/Lincoln-ProximaNova-Sbold.otf");
+}
+@font-face {
+	font-family: "Lincoln Proxima Nova";
+	src: url("./fonts/Lincoln-ProximaNova-Reg.otf");
 }
 
 body {
-    font-family: "Ford Antenna";
+    font-family: "Lincoln Proxima Nova";
 }
 .d-grid {
     display: grid;
@@ -15,6 +19,7 @@ body {
 .blue-text {
     color: #000;
     font-size: 19px;
+    font-family: "Lincoln Proxima Nova Bold";
 }
 .link-container {
     background-color: rgba(211, 131, 70,0.93);
@@ -27,7 +32,7 @@ body {
     margin-bottom: 10px;
 }
 .link-container > p {
-    color: #fff;
+    color: #000;
     font-size: 20px;
     text-align: center;
     margin: 0!important;
